@@ -1,16 +1,19 @@
-# 📝 Redux Toolkit Todo App
+<h1 align="center">📝 Redux Toolkit Todo App</h1>
 
 <p align="center">
-A modern <b>Todo Task Management Application</b> built with <b>React.js</b> and <b>Redux Toolkit</b> to demonstrate clean and scalable global state management.
+A simple and modern <b>Todo Task Management Application</b> built using <b>React.js</b> and <b>Redux Toolkit</b>.  
+This project demonstrates how to manage <b>global state in a React application</b> using Redux Toolkit while performing basic operations like <b>adding, updating, and deleting tasks</b>.
 </p>
 
 <p align="center">
+It helps developers understand how Redux Toolkit simplifies state management and keeps application data organized across multiple React components.
+</p>
 
+<p align="center">
 <img src="https://img.shields.io/badge/React-18-blue?logo=react">
 <img src="https://img.shields.io/badge/Redux%20Toolkit-State%20Management-purple?logo=redux">
 <img src="https://img.shields.io/badge/TailwindCSS-UI-blue?logo=tailwindcss">
 <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript">
-
 </p>
 
 ---
