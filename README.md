@@ -1,25 +1,36 @@
 # 📝 Redux Toolkit Todo App
 
-A modern **Todo Task Management Application** built with **React.js and Redux Toolkit** to demonstrate global state management in a clean and scalable way.
+<p align="center">
+A modern <b>Todo Task Management Application</b> built with <b>React.js</b> and <b>Redux Toolkit</b> to demonstrate clean and scalable global state management.
+</p>
 
-This application allows users to **add, update, and delete tasks** while maintaining a centralized state using Redux Toolkit.
+<p align="center">
+
+<img src="https://img.shields.io/badge/React-18-blue?logo=react">
+<img src="https://img.shields.io/badge/Redux%20Toolkit-State%20Management-purple?logo=redux">
+<img src="https://img.shields.io/badge/TailwindCSS-UI-blue?logo=tailwindcss">
+<img src="https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript">
+
+</p>
 
 ---
 
 # 📸 Application Preview
 
-![Redux Toolkit Todo App](Redux.png)
+<p align="center">
+<img src="Redux.png" width="700">
+</p>
 
 ---
 
 # 🚀 Features
 
-✔ Add new tasks easily
-✔ Update/Edit existing todos
-✔ Delete completed or unwanted tasks
-✔ Global state management using Redux Toolkit
-✔ Clean and responsive UI using Tailwind CSS
-✔ Simple and beginner-friendly project structure
+✨ Add new tasks quickly
+✏️ Edit / update existing todos
+🗑 Delete unwanted tasks
+🌍 Global state management using Redux Toolkit
+🎨 Clean and responsive UI using Tailwind CSS
+⚡ Fast development with Vite + React
 
 ---
 
@@ -27,106 +38,117 @@ This application allows users to **add, update, and delete tasks** while maintai
 
 ### Frontend
 
-React.js
-JavaScript (ES6)
-HTML5
-CSS3
-Tailwind CSS
+* React.js
+* JavaScript (ES6)
+* HTML5
+* CSS3
+* Tailwind CSS
 
 ### State Management
 
-Redux Toolkit
-React Redux
+* Redux Toolkit
+* React Redux
 
 ---
 
 # 📂 Project Structure
+
 ```
-redux-toolkit-todo-app/
-
-├── public/
-
-├── src/
-
-│ ├── app/
-│ │ └── store.js
-
-│ ├── components/
-│ │ ├── AddTodo.jsx
-│ │ └── Todos.jsx
-
-│ ├── features/
-│ │ └── todo/
-│ │ └── todoSlice.js
-
-│ ├── App.jsx
-│ ├── App.css
-│ ├── index.css
-│ └── main.jsx
-
+redux-toolkit-todo-app
+│
+├── public
+│
+├── src
+│   ├── app
+│   │   └── store.js
+│   │
+│   ├── components
+│   │   ├── AddTodo.jsx
+│   │   └── Todos.jsx
+│   │
+│   ├── features
+│   │   └── todo
+│   │       └── todoSlice.js
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
 ├── Redux.png
 ├── package.json
 └── README.md
 ```
+
 ---
 
 # ⚙️ Application Workflow
 
+```
 User Opens Application
-↓
-User Enters Todo Task
-↓
+        ↓
+User Adds a Todo Task
+        ↓
 Redux Toolkit Dispatches Action
-↓
-Global State Updates in Store
-↓
-Todo List UI Re-renders Automatically
+        ↓
+Store Updates Global State
+        ↓
+React UI Automatically Re-renders
+```
 
 ---
 
 # 🎯 Key Learning Highlights
 
-React Functional Components
-React Hooks (useState)
-Redux Toolkit Slice Creation
-Global State Management
-Dispatching Redux Actions
-Using useSelector and useDispatch
-Component-Based Architecture
+✔ React Functional Components
+✔ React Hooks (useState)
+✔ Redux Toolkit Slice Creation
+✔ Global State Management
+✔ Dispatching Redux Actions
+✔ Using useSelector and useDispatch
+✔ Component-Based Architecture
 
 ---
 
 # 💡 Why I Built This Project
 
-I created this project to strengthen my understanding of **Redux Toolkit and React state management**.
+I built this project to strengthen my understanding of **Redux Toolkit and React state management**.
 
-This project helped me learn:
+Through this project I practiced:
 
-• Managing global state using Redux Toolkit
-• Creating reducers and actions using createSlice
-• Connecting React components with Redux Store
-• Building scalable React applications
+* Managing global state with Redux Toolkit
+* Creating reducers and actions using `createSlice`
+* Connecting React components with Redux store
+* Building scalable React applications
 
 ---
 
 # ⚙️ Setup Instructions
 
 ### 1️⃣ Clone Repository
+
 ```
 git clone https://github.com/Pinkuu108/redux-toolkit-todo-app.git
 ```
+
 ### 2️⃣ Install Dependencies
+
 ```
 npm install
 ```
+
 ### 3️⃣ Run Application
+
 ```
 npm run dev
 ```
+
 Application will run at:
+
 ```
 http://localhost:5173
 ```
+
 ---
 
 # 👨‍💻 Author
