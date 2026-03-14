@@ -1,12 +1,18 @@
 <h1 align="center">📝 Redux Toolkit Todo App</h1>
 
 <p align="center">
-A simple and modern <b>Todo Task Management Application</b> built using <b>React.js</b> and <b>Redux Toolkit</b>.  
-This project demonstrates how to manage <b>global state in a React application</b> using Redux Toolkit while performing basic operations like <b>adding, updating, and deleting tasks</b>.
+A simple and modern <b>Todo Task Management Application</b> built using 
+<b>React.js</b> and <b>Redux Toolkit</b>.
 </p>
 
 <p align="center">
-It helps developers understand how Redux Toolkit simplifies state management and keeps application data organized across multiple React components.
+This project demonstrates how to manage <b>global state in React</b> using Redux Toolkit
+while performing basic operations such as <b>adding, updating, and deleting tasks</b>.
+</p>
+
+<p align="center">
+It helps developers understand how Redux Toolkit simplifies state management
+and keeps application data organized across multiple components.
 </p>
 
 <p align="center">
@@ -21,7 +27,7 @@ It helps developers understand how Redux Toolkit simplifies state management and
 # 📸 Application Preview
 
 <p align="center">
-<img src="Redux.png" width="700">
+<img src="Redux.png" width="900">
 </p>
 
 ---
@@ -29,11 +35,11 @@ It helps developers understand how Redux Toolkit simplifies state management and
 # 🚀 Features
 
 ✨ Add new tasks quickly
-✏️ Edit / update existing todos
+✏️ Edit and update existing todos
 🗑 Delete unwanted tasks
-🌍 Global state management using Redux Toolkit
-🎨 Clean and responsive UI using Tailwind CSS
-⚡ Fast development with Vite + React
+🌍 Manage global state using Redux Toolkit
+🎨 Clean responsive UI with Tailwind CSS
+⚡ Fast development using Vite + React
 
 ---
 
@@ -41,16 +47,16 @@ It helps developers understand how Redux Toolkit simplifies state management and
 
 ### Frontend
 
-* React.js
-* JavaScript (ES6)
-* HTML5
-* CSS3
-* Tailwind CSS
+React.js
+JavaScript (ES6)
+HTML5
+CSS3
+Tailwind CSS
 
 ### State Management
 
-* Redux Toolkit
-* React Redux
+Redux Toolkit
+React Redux
 
 ---
 
@@ -94,7 +100,7 @@ User Adds a Todo Task
         ↓
 Redux Toolkit Dispatches Action
         ↓
-Store Updates Global State
+Redux Store Updates Global State
         ↓
 React UI Automatically Re-renders
 ```
@@ -108,45 +114,46 @@ React UI Automatically Re-renders
 ✔ Redux Toolkit Slice Creation
 ✔ Global State Management
 ✔ Dispatching Redux Actions
-✔ Using useSelector and useDispatch
+✔ useSelector and useDispatch
 ✔ Component-Based Architecture
 
 ---
 
 # 💡 Why I Built This Project
 
-I built this project to strengthen my understanding of **Redux Toolkit and React state management**.
+I built this project to improve my understanding of
+**Redux Toolkit and state management in React applications**.
 
 Through this project I practiced:
 
-* Managing global state with Redux Toolkit
-* Creating reducers and actions using `createSlice`
-* Connecting React components with Redux store
-* Building scalable React applications
+• Creating Redux slices using `createSlice`
+• Managing global state with Redux Toolkit
+• Connecting React components to Redux store
+• Building scalable React applications
 
 ---
 
 # ⚙️ Setup Instructions
 
-### 1️⃣ Clone Repository
+### Clone Repository
 
 ```
 git clone https://github.com/Pinkuu108/redux-toolkit-todo-app.git
 ```
 
-### 2️⃣ Install Dependencies
+### Install Dependencies
 
 ```
 npm install
 ```
 
-### 3️⃣ Run Application
+### Run Application
 
 ```
 npm run dev
 ```
 
-Application will run at:
+Application runs at:
 
 ```
 http://localhost:5173
