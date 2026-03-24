@@ -4,7 +4,6 @@
 A simple and modern <b>Todo Task Management Application</b> built using 
 <b>React.js</b> and <b>Redux Toolkit</b>.
 </p>
-
 <p align="center">
 This project demonstrates how to manage <b>global state in React</b> using Redux Toolkit
 while performing basic operations such as <b>adding, updating, and deleting tasks</b>.
